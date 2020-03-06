@@ -1,1 +1,17 @@
 // Mixins in here
+//button
+.btn {
+    border: 1 px;
+    border-radius: 15px;
+    background: @eastern-blue;
+    color:@white;
+    width: 85%;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+
+    @media @mobile {
+        background: @western-blue;
+    }
+}
